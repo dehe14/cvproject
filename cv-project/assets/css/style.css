@@ -376,7 +376,7 @@ right: 3vw;
   position: relative;
 }
 
-.projectButtons1, .projectButtons2, .projectButtons3, .projectButtons4 {
+.projectButtons1, .projectButtons2, .projectButtons3, .projectButtons4 , .projectButtons5 , .projectButtons6 , .projectButtons7 , .projectButtons8 , .projectButtons9 , .projectButtons10 , .projectButtons11 , .projectButtons12{
   position: absolute;
   background-color: grey;
   border-radius: 50%;
@@ -388,10 +388,11 @@ right: 3vw;
   padding: 0;
   margin: 0;
   border: 3px solid #131920;
-  z-index: 2;
+  z-index: 3;
+
 }
 
-.projectButtons1:focus, .projectButtons2:focus, .projectButtons3:focus, .projectButtons4:focus {
+.projectButtons1:focus, .projectButtons2:focus, .projectButtons3:focus, .projectButtons4:focus, .projectButtons5:focus , .projectButtons6:focus , .projectButtons7:focus , .projectButtons8:focus , .projectButtons9:focus , .projectButtons10:focus , .projectButtons11:focus {
   border: 3px solid #131920;
   width: 10vw;
   height: 10vw;
@@ -399,7 +400,7 @@ right: 3vw;
 }
 
 .projectButtons1 {
-  top: 23.7vw;
+  top: 18.7vw;
   left: 33vw;
   opacity: 1;
   background-image: url("../img/me.png");
@@ -408,60 +409,292 @@ right: 3vw;
   font-style: sketch_block;
   font-size: 2vw;
   text-align: bottom;
+  z-index: 4;
 }
 
 .projectButtons2 {
-  top: 12.5vw;
+  top: 7.5vw;
   left: 15vw;
-  opacity: 0;
   background-image: url("../img/me2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .projectButtons3 {
-  top: 23.7vw;
+  top: 18.7vw;
   left: 54.3vw;
-  opacity: 0;
   background-image: url("../img/me4.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .projectButtons4 {
-  top: 36vw;
+  top: 31vw;
   left: 15.7vw;
-  opacity: 0;
   background-image: url("../img/me3.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.animatedLine1, .animatedLine2, .animatedLine3, .animatedLine4 {
+.projectButtons5 {
+  width: 5vw;
+  height: 5vw;
+  top: 24.3vw;
+  left: 10.5vw;
+  background-image: url("../img/lightbulb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projectButtons6{
+  width: 5vw;
+  height: 5vw;
+  top: 23vw;
+  left: 18vw;
+  background-color: white;
+
+}
+.projectButtons7{
+  width: 5vw;
+  height: 5vw;
+  top: 11.9vw;
+  left: 28vw;
+  background-image: url("../img/questionmark.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projectButtons8{
+  width: 5vw;
+  height: 5vw;
+  top: 10.9vw;
+  left: 35.4vw;
+  background-color: white;
+}
+
+.projectButtons9{
+  width: 5vw;
+  height: 5vw;
+  top: 12vw;
+  left: 51.6vw;
+  background-color: white;
+}
+
+.projectButtons10{
+  width: 5vw;
+  height: 5vw;
+  top: 12vw;
+  left: 61.6vw;
+  background-color: white;
+}
+
+.projectButtons11{
+  width: 5vw;
+  height: 5vw;
+  top: 10vw;
+  left: 7vw;
+  background-color: white;
+}
+.projectButtons12{
+  width: 6vw;
+  height: 6vw;
+  top: 15vw;
+  left: 35vw;
+  background-color:#322413;
+  z-index: 5;
+}
+
+.projectButtons5 p , .projectButtons6 p , .projectButtons7 p , .projectButtons8 p , .projectButtons9 p ,.projectButtons10 p , .projectButtons11 p{
+  font-family:sketch_block;
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 90%;
+  height: 90%;
+  font-size: 0.9vw;
+  padding-top: 20%;
+  text-align: center;
+  color: darkblue;
+  font-weight: 500;
+}
+
+.projectButtons6 p{
+  font-size: 0.6vw;
+}
+
+.projectButtons7 p{
+  font-size: 0.8vw;
+}
+
+.projectButtons8 p{
+  font-size: 0.8vw;
+  padding-top: 10%;
+}
+
+.projectButtons9 p{
+  font-size: 0.7vw;
+  padding-top: 25%;
+}
+
+.projectButtons10 p{
+  font-size: 0.7vw;
+  padding-top: 25%;
+}
+
+.projectButtons11 p{
+  font-size: 0.8vw;
+  padding-top: 25%;
+}
+
+.animatedLine1, .animatedLine2, .animatedLine3, .animatedLine4 , .animatedLine5 , .animatedLine6 , .animatedLine7 , .animatedLine8 , .animatedLine9 , .animatedLine10 , .Petal1 , .Petal2 , .Petal3 , .Petal4 {
   position: absolute;
   border: 3px solid blue;
   width: 11vw;
   z-index: 1;
   transition: opacity 4s;
-  opacity: 0;
+  opacity: 1;
 }
 
 .animatedLine1 {
   transform: rotate(35deg);
-  top: 22.5vw;
+  top: 17.5vw;
   left: 23.5vw;
 }
 
 .animatedLine2 {
   transform: rotate(-35deg);
-  top: 34.5vw;
+  top: 29.5vw;
   left: 23.5vw;
 }
 
 .animatedLine3 {
-  ;
-  top: 28.5vw;
+  top: 23.5vw;
   left: 43vw;
+}
+
+.animatedLine4{
+  transform: rotate(50deg);
+  top: 30.5vw;
+  left: 14vw;
+  width: 4vw;
+  border: 2px dashed darkgreen;
+
+}
+
+.animatedLine5{
+  transform: rotate(50deg);
+  top: 18vw;
+  left: 31.5vw;
+  width: 4vw;
+  border: 2px dashed darkgreen;
+
+}
+
+.animatedLine6{
+  transform: rotate(90deg);
+  top: 29.6vw;
+  left: 19.3vw;
+  width: 2.5vw;
+  border: 2px dashed darkgreen;
+
+}
+
+.animatedLine7{
+  transform: rotate(90deg);
+  top: 17.3vw;
+  left: 36.7vw;
+  width: 2.5vw;
+  border: 2px dashed darkgreen;
+
+}
+
+.animatedLine8{
+  transform: rotate(60deg);
+  top: 18vw;
+  left: 55vw;
+  width: 2.5vw;
+  border: 2px dashed darkgreen;
+}
+
+.animatedLine9{
+  transform: rotate(-60deg);
+  top: 18vw;
+  left: 61vw;
+  width: 2.5vw;
+  border: 2px dashed darkgreen;
+}
+
+.animatedLine10{
+  transform: rotate(0deg);
+  top: 12.5vw;
+  left: 12.4vw;
+  width: 2.4vw;
+  border: 2px dashed darkgreen;
+}
+
+.animatedLine11{
+  position: relative;
+  top: 21vw;
+  left: 37.8vw;
+  width: 0.4vw;
+  height:20vw;
+  border: 2px dashed black;
+  z-index: 2
+}
+
+.animatedStem{
+  position:absolute;
+  width: 0.4vw;
+  height:100%;
+  background-color:#7B8235;
+    z-index: 4
+}
+
+.Petal1{
+  transform: rotate(-25deg);
+  border-radius: 100%;
+  top: 16.5vw;
+  left: 29.5vw;
+  width: 17vw;
+  height:3vw;
+  border: 2px solid #DF6D26;
+  background-color: #FBA914;
+  z-index: 3
+}
+
+.Petal2{
+  transform: rotate(65deg);
+  border-radius: 100%;
+  top: 16.5vw;
+  left: 29.5vw;
+  width: 17vw;
+  height:3vw;
+  border: 2px solid #DF6D26;
+  background-color: #FBA914;
+  z-index: 3
+}
+
+.Petal3{
+  transform: rotate(20deg);
+  border-radius: 100%;
+  top: 16.5vw;
+  left: 29.5vw;
+  width: 17vw;
+  height:3vw;
+  border: 2px solid #DF6D26;
+  background-color: #FBA914;
+  z-index: 3
+}
+
+.Petal4{
+  transform: rotate(110deg);
+  border-radius: 100%;
+  top: 16.5vw;
+  left: 29.5vw;
+  width: 17vw;
+  height:3vw;
+  border: 2px solid #DF6D26;
+  background-color: #FBA914;
+  z-index: 3
 }
 
 footer {

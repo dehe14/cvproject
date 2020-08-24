@@ -67,12 +67,20 @@ function slideAnimationReverse(x) {
 }
 
 function skillLoad() {
-  var bar1 = document.getElementsByClassName("skillProgress1")[0];
-  var bar2 = document.getElementsByClassName("skillProgress2")[0];
-  var bar3 = document.getElementsByClassName("skillProgress3")[0];
-  var bar4 = document.getElementsByClassName("skillProgress4")[0];
-  var bar5 = document.getElementsByClassName("skillProgress5")[0];
-  var bar6 = document.getElementsByClassName("skillProgress6")[0];
+  var butt1 = document.getElementsByClassName("projectButtons1")[0];
+  var butt2 = document.getElementsByClassName("projectButtons2")[0];
+  var butt3 = document.getElementsByClassName("projectButtons3")[0];
+  var butt4 = document.getElementsByClassName("projectButtons4")[0];
+  var butt5 = document.getElementsByClassName("projectButtons5")[0];
+  var butt6 = document.getElementsByClassName("projectButtons6")[0];
+  var butt7 = document.getElementsByClassName("projectButtons7")[0];
+  var butt8 = document.getElementsByClassName("projectButtons8")[0];
+  var butt9 = document.getElementsByClassName("projectButtons9")[0];
+  var butt10 = document.getElementsByClassName("projectButtons10")[0];
+  var butt11 = document.getElementsByClassName("projectButtons11")[0];
+  var butt12 = document.getElementsByClassName("projectButtons12")[0];
+
+  var line1 = document.getElementsByClassName("animatedLine1")[0];
   bar1.style.width = 80 + "%";
   bar2.style.width = 70 + "%";
   bar3.style.width = 50 + "%";
@@ -81,26 +89,7 @@ function skillLoad() {
   bar6.style.width = 20 + "%";
 }
 
-function lineFade() {
+function thoughts() {
+  var butt1 = document.getElementsByClassName("skillProgress1")[0];
 
-  var line1 = document.getElementsByClassName("animatedLine1")[0];
-  var line2 = document.getElementsByClassName("animatedLine2")[0];
-  var line3 = document.getElementsByClassName("animatedLine3")[0];
-  line1.style.opacity = 1;
-  line2.style.opacity = 1;
-  line3.style.opacity = 1;
-}
-
-function buttonFade() {
-  var bubble1 = document.getElementsByClassName("projectButtons2")[0];
-  var bubble2 = document.getElementsByClassName("projectButtons3")[0];
-  var bubble3 = document.getElementsByClassName("projectButtons4")[0];
-  bubble1.style.opacity = 1;
-  bubble2.style.opacity = 1;
-  bubble3.style.opacity = 1;
-}
-
-function projectFadeIn() {
-  lineFade()
-  setTimeout(buttonFade, 1500);
 }
