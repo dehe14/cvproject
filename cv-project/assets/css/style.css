@@ -382,7 +382,7 @@ right: 3vw;
   border-radius: 50%;
   width: 10vw;
   height: 10vw;
-  opacity: 1;
+  opacity: 0;
   transition: opacity 4s;
   outline: 0;
   padding: 0;
@@ -402,7 +402,6 @@ right: 3vw;
 .projectButtons1 {
   top: 18.7vw;
   left: 33vw;
-  opacity: 1;
   background-image: url("../img/me.png");
   background-repeat: no-repeat;
   background-size: contain;
@@ -410,6 +409,7 @@ right: 3vw;
   font-size: 2vw;
   text-align: bottom;
   z-index: 4;
+    opacity: 1;
 }
 
 .projectButtons2 {
@@ -551,7 +551,7 @@ right: 3vw;
   width: 11vw;
   z-index: 1;
   transition: opacity 4s;
-  opacity: 1;
+  opacity: 0;
 }
 
 .animatedLine1 {
@@ -637,17 +637,20 @@ right: 3vw;
   left: 37.8vw;
   width: 0.4vw;
   height:20vw;
-  border: 2px dashed black;
+  border: 0px dashed black;
   z-index: 2
 }
 
-.animatedStem{
+.stem{
   position:absolute;
   width: 0.4vw;
-  height:100%;
+  height:0%;
   background-color:#7B8235;
-    z-index: 4
+    z-index: 4;
+    opacity:0;
+      transition: height 4s;
 }
+
 
 .Petal1{
   transform: rotate(-25deg);
